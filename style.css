@@ -1,0 +1,94 @@
+
+.container {
+    width: 1600px;
+  }
+  
+  #graphic {
+    padding-top: 60px;
+  }
+  
+  .button {
+    min-width: 130px;
+    padding: 4px 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #e0e0e0;
+    text-decoration: none;
+  }
+  
+  .button.active {
+    background: #000;
+    color: #fff;
+  }
+
+  #sections {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    top: 0px;
+    z-index: 90;
+    padding-bottom: 800px;
+  }
+  
+  .step {
+    margin-bottom: 800px;
+    font-family: "TiemposTextWeb-Regular","Georgia";
+    font-size: 16px;
+    line-height: 23px;
+    color: #767678;
+  }
+  
+  #sections .title {
+    font-family: Arial,Helvetica,"san-serif";
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #262626;
+    line-height: 1.2em;
+  }
+  
+  #extra-space {
+    height: 300px;
+  }
+  
+  #bubbles {
+    display: inline-block;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    margin-left: 0;
+    /* height: 600px; */
+    /* width: 600px; */
+    /* background-color: #ddd; */
+  }
+  
+  #bubbles .title {
+    font-size:80px;
+    text-anchor: middle;
+  }
+  
+  #bubbles .sub-title {
+    font-size:40px;
+    text-anchor: middle;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #666;
+    shape-rendering: crispEdges;
+  }
+  
+  .highlight {
+    fill: #008080;
+    font-weight: bold;
+  }
+  
+  .cough-arrow {
+    stroke: #000;
+    stroke-width: 4px;
+  
+  }
+  
+  

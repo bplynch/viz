@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>CS416 Data Vizualization</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="container">
+  <div id='graphic'>
+    <div id='sections'>
+      <section class="step">
+        <div class="title">Scroll Down</div>
+      </section>
+      <section class="step">
+        <div class="title">Counties</div>
+        Every four years election, people line up at the poll booths in counties across the United States to cast their vote for president.  
+      </section>
+      <section class="step">
+        <div class="title">Counties Sized by Votes</div>
+        Some of these counties have millions of residents that vote, others have only hundreds.
+      </section>
+      <section class="step">
+        <div class="title">Party Lines</div>
+        In the U.S's two-party system, almost all candidates are elected from either the Democrat Party (blue) or Republican Party (red).  In the last four elections, an third-party candidate has never carried a county in the Presidential election.
+      </section>
+      <section class="step">
+        <div class="title">The Electorate</div>
+        Democratic counties tend to be larger but fewer than Republican counties;  Seen here, votes for Democratic candidates are concentrated in larger counties, whereas votes for Republicans are spread out across smaller counties.
+      </section>
+      <section class="step">
+        <div class="title">Swing Counties</div>
+        Some counties are won by the slimmest of margins.  Those colored purple are tight races (within 2%) that may could be swung next time around.
+      </section>
+	    <section class="step end">
+        <div class="title">Explore</div>
+        Hover over a county to dive deeper!
+        <br>
+        <br>
+        <br>
+        <div id="toolbar">
+          <div id="All" class="button active">All Elections</div>
+          <div id="ByYear" class="button">By Year</div>
+        </div>
+      </section>
+    </div>
+    <div id='bubbles'></div>
+  </div>
+</div>
+<script src="d3.js"></script>
+<script src="scroller.js"></script>
+<script src="bubbles.js"></script>
+</body>
+</html>
